@@ -1,0 +1,253 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase</title>
+
+    <script src="https://kit.fontawesome.com/d599f53265.js" crossorigin="anonymous"></script>
+
+<Link rel="Stylesheet" type="text/css" href="Purchase.Css">
+
+    <style>
+        
+        .navbar {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .navbar a {
+          float: left;
+          font-size: 16px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        .dropdown {
+          float: left;
+          overflow: hidden;
+        }
+        
+        .dropdown .dropbtn {
+          font-size: 16px;  
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+        
+        .navbar a:hover, .dropdown:hover .dropbtn {
+          background-color: red;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        </style>
+
+</head>
+
+<body>
+    
+    <div class="header">  
+      <img style="float: left;" src="Content/LogoDesign.jpg" width="160px" height="150px">
+      <h1 style="color: white; position: relative; left: 340px; top: 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: bold; text-shadow: 2px 2px #ffc0cb;">Empowering the nation</h1>
+    <h1 style="color: white; position: relative; font-size: x-large; left: 370px; top: 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: bold; text-shadow: 2px 2px #ffc0cb;">"Creating opportunities"</h1>
+    </div>
+    
+    
+    <div class="navbar">
+        <a href="Home.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Courses 
+            <i class="fa-solid fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="WeekCourses.html">Six week courses</a>
+            <a href="MonthCourse.html">Six month courses</a>
+          </div>
+        </div> 
+        <a href="Purchase.html">Purchase course</a>
+        <a href="ContactUs.html">Contact us</a>
+      </div>
+         
+    
+    
+    <div class="Column middle">
+      <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: x-large; font-weight: bold; color: #ff0000; position: absolute; left: 380px">Purchase a course and study with us</h1>
+      <h2 style="font-size: medium; font-weight: 700; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; position: absolute; top: 300px; left: 460px;">*Please fill in the following details*</h2>
+       <Label style="position: absolute; top: 370px; left: 400px; font-size: medium; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: 500;">Full Name:</Label>
+       <input style="position: absolute; top: 370px; left: 550px; border-radius: 4px; font-size: medium;" placeholder="Enter in your full name" id="Name" type="text" required>
+       <br>
+       <Label style="position: absolute; top: 420px; left: 400px; font-size: medium; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: 500;">Phone Number:</Label>
+       <input style="position: absolute; top: 420px; left: 550px; border-radius: 4px; font-size: medium;" placeholder="Enter in your phone number" id="Number" type="tel" required>
+       <br>
+       <Label style="position: absolute; top: 470px; left: 400px; font-size: medium; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: 500;">Email Adress:</Label>
+       <input style="position: absolute; top: 470px; left: 550px; border-radius: 4px; font-size: medium;" placeholder="Enter in your email adress" id="Email" type="email" required>
+       <br>
+       
+       <Label style="position: absolute; top: 520px; left: 20px; font-size: medium; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: 500;">Select courses:</Label>
+       <select style="position: absolute; top: 520px; left: 140px; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium; border-radius: 4px;" 
+       name="Month" id="MonthCourse1">
+       <option value="No course selected">No course long selected</option>
+        <option value="First Aid - R1500">First Aid - R1500</option>
+        <option value="Sewing - R1500">Sewing - R1500</option>
+        <option value="Landscaping - R1500">Landscaping - R1500</option>
+        <option value="Lifeskills - R1500">Lifeskills - R1500</option>
+      </select>
+
+      <select style="position: absolute; top: 520px; left: 380px; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium; border-radius: 4px;" 
+       name="Month" id="MonthCourse2">
+       <option value="No course selected">No course long selected</option>
+        <option value="First Aid - R1500">First Aid - R1500</option>
+        <option value="Sewing - R1500">Sewing - R1500</option>
+        <option value="Landscaping - R1500">Landscaping - R1500</option>
+        <option value="Lifeskills - R1500">Lifeskills - R1500</option>
+      </select>
+
+      <select style="position: absolute; top: 520px; left: 620px; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium; border-radius: 4px;" 
+       name="Month" id="MonthCourse3">
+       <option value="No course selected">No course long selected</option>
+        <option value="First Aid - R1500">First Aid - R1500</option>
+        <option value="Sewing - R1500">Sewing - R1500</option>
+        <option value="Landscaping - R1500">Landscaping - R1500</option>
+        <option value="Lifeskills - R1500">Lifeskills - R1500</option>
+      </select>
+
+      <select style="position: absolute; top: 520px; left: 860px; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium; border-radius: 4px;" 
+       name="Month" id="MonthCourse4">
+       <option value="No course selected">No course long selected</option>
+        <option value="First Aid - R1500">First Aid - R1500</option>
+        <option value="Sewing - R1500">Sewing - R1500</option>
+        <option value="Landscaping - R1500">Landscaping - R1500</option>
+        <option value="Lifeskills - R1500">Lifeskills - R1500</option>
+      </select>
+
+      <select style="position: absolute; top: 570px; left: 140px; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium; border-radius: 4px;" 
+      name="Week" id="WeekCourse1">
+      <option value="No course selected">No course short selected</option>
+       <option value="Child minding - R750">Child minding - R750</option>
+       <option value="Cooking - R750">Cooking - R750</option>
+       <option value="Garden maintenance - R750">Garden maintenance - R750</option>
+     </select>
+
+     <select style="position: absolute; top: 570px; left: 405px; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium; border-radius: 4px;" 
+      name="Week" id="WeekCourse2">
+      <option value="No course selected">No course short selected</option>
+       <option value="Child minding - R750">Child minding - R750</option>
+       <option value="Cooking - R750">Cooking - R750</option>
+       <option value="Garden maintenance - R750">Garden maintenance - R750</option>
+     </select>
+
+     <select style="position: absolute; top: 570px; left: 670px; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium; border-radius: 4px;" 
+      name="Week" id="WeekCourse3">
+      <option value="No course selected">No course short selected</option>
+       <option value="Child minding - R750">Child minding - R750</option>
+       <option value="Cooking - R750">Cooking - R750</option>
+       <option value="Garden maintenance - R750">Garden maintenance - R750</option>
+     </select>
+     <br>
+     <button onclick="AddMonthCourse()" class="Button1" type="button" style="position: absolute; font-weight: bold; top: 520px; left: 1100px;">Add course</button>
+     <button onclick="AddWeekCourse()" class="Button1" type="button" style="position: absolute; font-weight: bold; top: 570px; left: 940px;">Add course</button>
+     <br>
+     <div class="CoursesList">
+     <label style="position: absolute; font-size: larger; font-weight: 800; font-family:monospace;" id="AddMCourse1">1</label>
+     <label style="position: absolute; top: 40px; font-size: larger; font-weight: 800; font-family:monospace;" id="AddMCourse2">2</label>
+     <label style="position: absolute; top: 70px; font-size: larger; font-weight: 800; font-family:monospace;" id="AddMCourse3">3</label>
+     <label style="position: absolute; top: 100px; font-size: larger; font-weight: 800; font-family:monospace;" id="AddMCourse4">4</label>
+     <label style="position: absolute; left: 220px; font-size: larger; font-weight: 800; font-family:monospace;" id="AddSCourse1">1</label>
+     <label style="position: absolute; top: 40px; left: 220px; font-size: larger; font-weight: 800; font-family:monospace;" id="AddSCourse2">2</label>
+     <label style="position: absolute; top: 70px; left: 220px; font-size: larger; font-weight: 800; font-family:monospace;" id="AddSCourse3">3</label>
+     <label style="position: absolute; top: 140px; font-size: larger; font-weight: 800; font-family:monospace;" id="Confirm"></label>
+     <label style="position: absolute; top: 180px; font-size: larger; font-weight: 800; font-family:monospace;" id="Total">Total price:</label>
+    
+     </div>
+     <br>
+     <button onclick="SubmitFunction()" class="ButtonJoin" type="button" style="position: absolute; font-weight: bold; top: 850px; left: 580px;">Calculate fees</button>
+     <br>
+     <a style="position: absolute; top: 930px; left: 560px; font-size: x-large; font-family: monospace; font-weight: bold; color: black; text-shadow: 2px 2px 2px rgb(151, 146, 146);" href="Appointment.html">Book an appointment</a>
+    </div>
+    
+    
+    <div class="Footer">
+        <Label style="color: black; font-weight: bold; font-size: large;" id="EmpoweringTheNation">Empowering the nation</Label>
+        <br>
+        <br>
+        <Label style="color: black;" id="ReadyToGetStarted">Ready to get started?</Label>
+        <br>
+        <p>Please enter in your email to recieve monthly newsletters from us:</p>
+        <input style="width: 200px;" id="HomeEmail" type="text" required>
+        <script>
+          function getEmailValue(){
+          var inputEmailNews = document.getElementById("HomeEmail").value=''; 
+          window.alert("Your email has been captured successfully!") 
+          }
+      </script>
+        <br>
+        <button onclick="getEmailValue()" style="height: 30px; width: 100px; position: relative; top: 10px;">Get started!</button>
+        <br>
+        <label style="font-weight: bold; position: relative; right: 110px; top: 20px;">Six month courses</label>
+        <br>
+        <a style="color: black; position: relative; right: 110px; top: 30px;" href="FirstAid.html">First Aid</a>
+        <br>
+        <a style="color: black; position: relative; right: 110px; top: 40px;" href="Sewing.html">Sewing</a>
+        <br>
+       <a style="color: black; position: relative; right: 110px; top: 50px;" href="Landscaping.html">Landscaping</a>
+        <br>
+        <a style="color: black; position: relative; right: 110px; top: 60px;" href="LifeSkills.html">Lifeskills</a>
+        <br>
+        <label style="font-weight: bold; position: relative; bottom: 70px; left: 80px;">Six week courses</label>
+        <br>
+           <a style="color: black; position: relative; bottom: 60px; left: 80px;" href="ChildMinding.html">Child minding</a>
+        <br>
+        <a style="color: black; position: relative; bottom: 50px; left: 80px;" href="Cooking.html">Cooking</a>
+        <br>
+       <a style="color: black; position: relative; bottom: 40px; left: 80px;" href="GardenMaintenance.html">Garden maintenance</a>
+        <br>
+        <div style="position: relative; top: 20px;" class="Icons">
+          <a href="https://www.facebook.com/VarsityCollege?mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-2xl" style="color: #088cdd;" alt="Facebook logo"></i></a>
+          <a href="https://instagram.com/varsitycollege?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram fa-2xl" style="color: #fb00ff;" alt="Intsagram logo"></i></a>
+          <a href="https://youtube.com/@VarsityCollegeAU?feature=shared"><i class="fa-brands fa-youtube fa-2xl" style="color: #ff0000;" alt="Youtube logo"></i></a>
+          <a href="https://twitter.com/Varsity_College?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter fa-2xl" style="color: #00bceb;" alt="Twitter logo"></i></a>
+        </div>
+    </div>
+
+    <div class="Footer2">
+      <h1 style="font-size: small; color: white;">Copyright @BitRebels© 2023</h1>
+    </div>
+
+    <script src="Purchase.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    </body>

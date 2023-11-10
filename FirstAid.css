@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    color: black;
+    
+}
+
+
+
+.header{
+    background-color: #002db3;
+    padding: 10px;
+    height: 150px; 
+}
+
+
+/*Style the top nav*/
+.topnav{
+    overflow: hidden;
+    background-color: #ACB1D6;
+    
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #DBDFEA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: black;
+    color: bisque;
+}
+
+
+.Column.middle{
+    padding: 10px;
+    height: 200vh;
+    width: 70vw;
+}
+
+
+.Footer{
+    background-color: rgb(97, 142, 201);
+    padding: 10px;
+    text-align: center;
+    height: 65vh;
+    width: 100vw;
+}
+
+.Footer2{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    height: 6vh;
+    width: 100%;
+}
+
+.ButtonJoin {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid #000000;
+}
+
+.ButtonJoin:hover {
+    background-color: #d41010;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .ButtonJoin:active {
+    background-color: #d61919;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+

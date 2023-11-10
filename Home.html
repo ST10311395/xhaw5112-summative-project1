@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <script src="https://kit.fontawesome.com/d599f53265.js" crossorigin="anonymous"></script>
+
+<Link rel="Stylesheet" type="text/css" href="Home.css">
+
+    <style>
+        
+        .navbar {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .navbar a {
+          float: left;
+          font-size: 16px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        .dropdown {
+          float: left;
+          overflow: hidden;
+        }
+        
+        .dropdown .dropbtn {
+          font-size: 16px;  
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+        
+        .navbar a:hover, .dropdown:hover .dropbtn {
+          background-color: red;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        </style>
+
+</head>
+
+<body>
+    
+    <div class="header">  
+      <img style="float: left;" src="Content/LogoDesign.jpg" width="160px" height="150px">
+      <h1 style="color: white; position: relative; left: 340px; top: 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: bold; text-shadow: 2px 2px #ffc0cb;">Empowering the nation</h1>
+    <h1 style="color: white; position: relative; font-size: x-large; left: 370px; top: 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: bold; text-shadow: 2px 2px #ffc0cb;">"Creating opportunities"</h1>
+    <!--Your logo should go here-->
+    </div>
+    
+    
+    <div class="navbar">
+      <a href="Home.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Courses 
+          <i class="fa-solid fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="WeekCourses.html">Six week courses</a>
+          <a href="MonthCourse.html">Six month courses</a>
+        </div>
+      </div> 
+      <a href="Purchase.html">Purchase course</a>
+      <a href="ContactUs.html">Contact us</a>
+    </div>
+       
+         
+    
+    
+    <div class="Column middle">
+      <video style="position: absolute; right: 100px;" autoplay muted loop src="Content/Home1.mp4" width="1000" height="600" id="Home1">
+      </video>
+      <br>
+      <video style="position: absolute; right: 100px; top: 720px;" autoplay muted loop src="Content/Home2.mp4" width="1000" height="600" id="Home2">
+      </video>
+      <br>
+      <video style="position: absolute; right: 100px; top: 1284px;" autoplay muted loop src="Content/Home3.mp4" width="1000" height="600" id="Home3">
+      </video>
+      <br>
+      <img style="position: absolute; right: 100px; top: 1850px;" src="Content/Home4.png" width="1000" height="600" id="Home4">
+      <br>
+      <img style="position: absolute; right: 100px; top: 2400px;" src="Content/Home5.png" width="1000" height="600" id="Home5">
+    <button class="ButtonJoin" type="button" style="position: relative; top: 2630px; left: 590px; font-weight: bold;"><a class="ButtonJoin1" href="Purchase.html">Join us></a></button>
+    </div>
+    
+    <div class="Footer">
+        <Label style="color: black; font-weight: bold; font-size: large;" id="EmpoweringTheNation">Empowering the nation</Label>
+        <br>
+        <br>
+        <Label style="color: black;" id="ReadyToGetStarted">Ready to get started?</Label>
+        <br>
+        <p>Please enter in your email to recieve monthly newsletters from us:</p>
+        <input style="width: 200px;" id="HomeEmail" type="text" required>
+        <script>
+          function getEmailValue(){
+          var inputEmailNews = document.getElementById("HomeEmail").value=''; 
+          window.alert("Your email has been captured successfully!") 
+          }
+      </script>
+        <br>
+        <button onclick="getEmailValue()" style="height: 30px; width: 100px; position: relative; top: 10px;">Get started!</button>
+        <br>
+        <label style="font-weight: bold; position: relative; right: 110px; top: 20px;">Six month courses</label>
+        <br>
+        <a style="color: black; position: relative; right: 110px; top: 30px;" href="FirstAid.html">First Aid</a>
+        <br>
+        <a style="color: black; position: relative; right: 110px; top: 40px;" href="Sewing.html">Sewing</a>
+        <br>
+       <a style="color: black; position: relative; right: 110px; top: 50px;" href="Landscaping.html">Landscaping</a>
+        <br>
+        <a style="color: black; position: relative; right: 110px; top: 60px;" href="LifeSkills.html">Lifeskills</a>
+        <br>
+        <label style="font-weight: bold; position: relative; bottom: 70px; left: 80px;">Six week courses</label>
+        <br>
+           <a style="color: black; position: relative; bottom: 60px; left: 80px;" href="ChildMinding.html">Child minding</a>
+        <br>
+        <a style="color: black; position: relative; bottom: 50px; left: 80px;" href="Cooking.html">Cooking</a>
+        <br>
+       <a style="color: black; position: relative; bottom: 40px; left: 80px;" href="GardenMaintenance.html">Garden maintenance</a>
+        <br>
+        <div style="position: relative; top: 20px;" class="Icons">
+            <a href="https://www.facebook.com/VarsityCollege?mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-2xl" style="color: #088cdd;" alt="Facebook logo"></i></a>
+            <a href="https://instagram.com/varsitycollege?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram fa-2xl" style="color: #fb00ff;" alt="Intsagram logo"></i></a>
+            <a href="https://youtube.com/@VarsityCollegeAU?feature=shared"><i class="fa-brands fa-youtube fa-2xl" style="color: #ff0000;" alt="Youtube logo"></i></a>
+            <a href="https://twitter.com/Varsity_College?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter fa-2xl" style="color: #00bceb;" alt="Twitter logo"></i></a>
+        </div>
+    </div>
+
+    <div class="Footer2">
+      <h1 style="font-size: small; color: white;">Copyright @BitRebels© 2023</h1>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    </body>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </html>

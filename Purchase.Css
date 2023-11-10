@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    color: black;
+    
+}
+
+
+
+.header{
+    background-color: #002db3;
+    padding: 10px;
+    height: 150px; 
+}
+
+
+/*Style the top nav*/
+.topnav{
+    overflow: hidden;
+    background-color: #ACB1D6;
+    
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #DBDFEA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: black;
+    color: bisque;
+}
+
+
+.Column.middle{
+    padding: 10px;
+    height: 130vh;
+    width: 70vw;
+}
+
+
+.Footer{
+    background-color: rgb(97, 142, 201);
+    padding: 10px;
+    text-align: center;
+    height: 65vh;
+    width: 100vw;
+}
+
+.Footer2{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    height: 6vh;
+    width: 100%;
+}
+
+.ButtonJoin {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 2px solid #000000;
+}
+
+.ButtonJoin:hover {
+    background-color: #13ac0b;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .ButtonJoin:active {
+    background-color: #13ac0b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .Button1 {
+    background-color: white;
+    font-size: 14px;
+    border-radius: 12px;
+    border: 2px solid #000000;
+}
+
+.Button1:hover {
+    background-color: #ff0000;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .Button1:active {
+    background-color: #ff0000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .CoursesList {
+    width: 450px;
+    height: 200px;
+    background-color: rgb(189, 188, 188);
+    position: absolute;
+    top: 610px;
+    left: 450px;
+    padding: 10px;
+  }

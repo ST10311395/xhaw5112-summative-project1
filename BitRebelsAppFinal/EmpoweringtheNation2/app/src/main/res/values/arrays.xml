@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="your_dropdown_items">
+        <item>Six Week Course</item>
+        <item>Six Month Course</item>
+
+        <!-- Add more items as needed -->
+    </array>
+    <array name="your_dropdown_courses1">
+        <item>First Aid - R1500</item>
+        <item>Landscaping - R1500</item>
+        <item>Lifeskills - R1500</item>
+
+        <!-- Add more items as needed -->
+    </array>
+    <array name="your_dropdown_courses2">
+        <item>Child minding - R750</item>
+        <item>Cooking - R750</item>
+        <item>Garden maintenance</item>
+
+        <!-- Add more items as needed -->
+    </array>
+</resources>
